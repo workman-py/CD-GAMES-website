@@ -1,0 +1,25 @@
+body {background-color:rgb(40, 40, 40); font-family: sans-serif; color: white}
+
+.heading {
+  font-weight: bold;
+  color: rgb(40, 40, 40);
+  text-align: center;
+  background: white;
+  padding: 30px;
+  position: fixed;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .maindiv {
+  padding-top: 102px;
+}
+
+.maindiv {
+  text-align: center;
+  padding: 16px;
+}
