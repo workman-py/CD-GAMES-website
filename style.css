@@ -12,7 +12,7 @@ body {background-color:rgb(40, 40, 40); font-family: sans-serif; color: white}
 }
 
 .heading:hover {
-  transform: rotate(2deg)
+  transform: rotate(-2deg)
 }
 
 .sticky {
@@ -49,4 +49,12 @@ body {background-color:rgb(40, 40, 40); font-family: sans-serif; color: white}
   width: 320px;
   height: 150px;
   font-size: 24px;
+}
+
+.steamLogo {
+  transition: transform 0.55s;
+}
+
+.steamLogo:hover {
+  transform: rotate(4deg)
 }
