@@ -5,14 +5,15 @@ body {background-color:rgb(40, 40, 40); font-family: sans-serif; color: white}
   color: rgb(40, 40, 40);
   text-align: center;
   background: white;
-  padding: 30px;
+  padding: 15px;
   position: fixed;
-  border: 4px solid rgb(50, 50, 50);
-  transition: transform 0.75s;
+  border: 3px solid rgb(50, 50, 50);
+  transition: transform 0.55s;
+  border-radius: 20px;
 }
 
 .heading:hover {
-  transform: rotate(-2deg)
+  transform: rotate(-1.25deg)
 }
 
 .sticky {
@@ -35,10 +36,11 @@ body {background-color:rgb(40, 40, 40); font-family: sans-serif; color: white}
   color: whitesmoke;
   background-color: #555555;
   padding: 15px 32px;
-  transition: height 0.5s, width 1s, color 1s, font-size 2s;
+  transition: height 0.20s, width 0.4s, color 0.65s, font-size 0.65s;
   width: 250px;
   height: 125px;
   font-size: 18px;
+  border-radius: 20px;
 }
 
 .steamButton:hover {
@@ -56,5 +58,5 @@ body {background-color:rgb(40, 40, 40); font-family: sans-serif; color: white}
 }
 
 .steamLogo:hover {
-  transform: rotate(4deg)
+  transform: rotate(5deg)
 }
